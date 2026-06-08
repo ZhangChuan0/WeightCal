@@ -10,4 +10,8 @@ public class WebApplication {
         SpringApplication.run(WebApplication.class, args);
     }
 
+    public String getName(){
+
+        return "WebApplication";
+    }
 }
